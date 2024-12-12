@@ -1,0 +1,45 @@
+body {
+    background-image: url(gif.gif);
+    opacity: 0.9;
+    background-position: bottom;
+    border-radius: 1000px;
+    margin: 100px;
+    background-repeat: no-repeat;
+    height: 860px;
+    display: flex; /* Adicionado para habilitar o alinhamento */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;              
+}
+.calendario{
+    display: flex;
+    flex-direction: column ;
+}
+
+.relogio {
+    background-image: url(ceu.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    font-size: 70px;
+    text-decoration: underline;  
+    color:rgb(255, 255, 255);
+    gap: 25px;
+    border: solid;
+    margin-top: -120px;
+    box-shadow: 0 0 80px;
+    height: 105px;
+}
+#date{
+    margin-top: -280px ;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    z-index: 9999;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(90, 89, 89);
+}
